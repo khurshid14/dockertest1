@@ -7,8 +7,8 @@ pipeline {
         dockerImage = ''
     }
     agent any
-    /*stages {
-        stage('Cloning our Git') {
+    stages {
+        /*stage('Cloning our Git') {
             steps {
                 git 'https://github.com/gamidirajesh/dockertest1.git'
             }
