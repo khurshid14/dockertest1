@@ -3,7 +3,7 @@ pipeline {
         registry = 'gamidirajesh/devopsb17'
         registryCredential = 'dockerhub_id'
         dockerSwarmManager = '10.111.1.47:2375'
-        dockerhost = '10.40.1.26'
+        dockerhost = '10.111.1.47'
         dockerImage = ''
     }
     agent any
